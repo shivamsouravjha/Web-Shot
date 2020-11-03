@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+class QuoteMaker extends React.Component {
+  render() {
+    return (
+      <blockquote>
+        <p>
+          The world is full of objects, more or less interesting; I do not wish to add any more.
+        </p>
+        <cite>
+          <a target="_blank"
+            href="https://en.wikipedia.org/wiki/Douglas_Huebler">
+            Douglas Huebler
+          </a>
+        </cite>
+      </blockquote>
+    );
+  }
+};
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <QuoteMaker />,
+  document.getElementById('shoot')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
