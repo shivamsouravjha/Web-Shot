@@ -10,8 +10,8 @@ class QuoteMaker extends React.Component {
         </p>
         <cite>
           <a target="_blank"
-            href="https://en.wikipedia.org/wiki/Douglas_Huebler">
-            Douglas Huebler
+            href="https://naruto.fandom.com/wiki/Naruto_Uzumaki">
+            Uzumaki Naruto
           </a>
         </cite>
       </blockquote>
